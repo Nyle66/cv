@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#corps{
+    display: flex;
+    margin-top: 5%;
+    height: 100vh;
+}
+section{
+    width: 600px;
+    height: 600px;
+
+    /*margin: 10% 200px 0px 200px;*/
+    margin-top: 10vh;
+    margin-left: 35vh;
+    padding: 30px;
+    text-align: center;
+
+    background-color: #E83C1A;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 50%;
+
+    transition: all 1s;
+}
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+    margin: 15px;
+}
+h2{
+    margin: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+#divMe{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url('../assets/img/me.jpg');
+    background-size: cover;
+    margin: auto;
+}
+#infoDiv{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+#one{
+    display: none;
+    text-align: center;
+}
+#two{
+    display: none;
+}
+#iconTab{
+    background-color: white;
+    margin: 5% 15% 4% 15%;
+    border-radius: 20px;
+}
+.icon{
+    margin: 15px;
+    cursor: pointer;
+}
+#three{
+    display: none;
+}
+#educ{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    margin-top: 15%;
+}
+.p{
+    font-weight: bolder;
+}
+.ita{
+    font-style: italic;
+}
+#fourth{
+    display: none;
+}
+#dropTab{
+    /*margin: 5% 42% 5% 42%;*/
+    /*display: flex;*/
+    font-family: 'Poiret One', cursive;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5%
+    
+}
+.drop{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20%;
+    display: flex;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+    /*border-radius: 100px;
+    background-color: #AEEE00;
+    vertical-align: middle;*/
+}
+.spanMenu{
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 10%;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+.infos{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+#infohtml{
+    display: none;
+    text-align: center;
+}
+#infocss{
+    display: none;
+}
+#infosass{
+    display: none;
+}
+#infojs{
+    display: none;
+}
+#infojquery{
+    display: none;
+}
+#infoangular{
+    display: none;
+}
+#infoionic{
+    display: none;
+}
+.container {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    background-color: #ddd;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.skills {
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    
+    border-radius: 5px 0 0 5px;
+}
+.html {width: 95%; background-color: #4CAF50;}
+.css {width: 95%; background-color: #4CAF50;}
+.sass {width: 90%; background-color: #4CAF50;}
+.js {width: 85%; background-color: #4CAF50;}
+.jquery {width: 80%; background-color: #4CAF50;}
+.angular {width: 85%; background-color: #4CAF50;}
+.ionic {width: 65%; background-color: #4CAF50;}
+
+.flexit {
+	width: 300px;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	padding-top: 3.5%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+#defile1:before {
+	content: "Japan-vore";
+	/*animation: animate1 infinite 7s;*/
+    animation: infinite linear 10s animate1;
+}
+@keyframes animate1 {
+	0% {
+		content: "Japan-vore";
+	}
+	25% {
+		content: "Musicophile";
+	}
+	50% {
+		content: "Cinema-Lover";
+	}
+	75% {
+		content: "Hardcore-Gamer";
+	}
+}
+#imgMisc{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.imgMisc{
+    width: 100px;
+    height: auto;
+    
+}
+#infoMisc{
+    margin-top: 10%;
+}
+#infojapan{
+    display: none;
+}
+#infomusic{
+    display: none;
+}
+#infocine{
+    display: none;
+}
+#infogame{
+    display: none;
+}
+.infosM{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+.p2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}

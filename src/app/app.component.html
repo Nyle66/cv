@@ -1,0 +1,153 @@
+<div id="corps">
+  <div id="dropTab">
+    <div class="drop" (click)="showOne()"><img class="menu" id="menu1" src="assets/img/about.png" width="50" height="50"><span class="spanMenu" id="span1">About me</span></div>
+
+    <div class="drop" (click)="showTwo()"><img class="menu" id="menu2" src="assets/img/skill.png" width="50" height="50"><span class="spanMenu" id="span2">Skills</span></div>
+
+    <div class="drop" (click)="showThree()"><img class="menu" id="menu3" src="assets/img/education.png" width="50" height="50"><span class="spanMenu" id="span3">Education</span></div>
+
+    <div class="drop" (click)="showFourth()"><img class="menu" id="menu4" src="assets/img/misc.png" width="50" height="50"><span class="spanMenu" id="span4">Miscellaneous</span></div>
+  </div> 
+
+  <section id="page" class="animated zoomIn">
+    
+
+
+  </section>
+
+  <section id="one" class="animated zoomIn">
+    <h1>Jérémy ALSINA</h1>
+    <div id="divMe"></div>
+    <h2>FRONT-END DEVELOPPER</h2>
+    <div id="infoDiv">
+      <p>20 april 1992</p>
+      <p>j.alsina@hotmail.fr</p>
+      <p>06.03.65.57.73</p>
+    </div>
+
+  </section>
+
+  <section id="two"  class="animated zoomIn">
+    
+    <h1>SKILLS</h1>
+    <div id="iconTab">
+      <img title="CLICK ME" (click)="infohtml()" class="icon" id="iconhtml" src="assets/img/html.png" width="60" height="auto">
+      <img title="CLICK ME" (click)="infocss()" class="icon" id="iconcss" src="assets/img/css.png" width="60" height="auto">
+      <img title="CLICK ME" (click)="infosass()" class="icon" id="iconsass" src="assets/img/sass.png" width="60" height="auto">
+      <img title="CLICK ME" (click)="infojs()" class="icon" id="iconjs" src="assets/img/js.png" width="60" height="auto"><br>
+      <img title="CLICK ME" (click)="infojquery()" class="icon" id="iconjquery" src="assets/img/jquery.gif" width="60" height="auto">
+      <img title="CLICK ME" (click)="infoangular()" class="icon" id="iconangular" src="assets/img/angular.png" width="60" height="auto">
+      <img title="CLICK ME" (click)="infoionic()" class="icon" id="iconionic" src="assets/img/ionic.png" width="60" height="auto">
+    </div>
+    <div id="infoTab">
+      <div id="infohtml">
+        <h3 class="infos animated fadeIn">HTML 5</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills html">95%</div>
+        </div>
+      </div>
+
+      <div id="infocss">
+        <h3 class="infos animated fadeIn">CSS 3</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills css">95%</div>
+        </div>
+      </div>
+
+      <div id="infosass">
+        <h3 class="infos animated fadeIn">SASS</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills sass">90%</div>
+        </div>
+      </div>
+
+      <div id="infojs">
+        <h3 class="infos animated fadeIn">JAVASCRIPT</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills js">85%</div>
+        </div>
+      </div>
+
+      <div id="infojquery">
+        <h3 class="infos animated fadeIn">JQUERY</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills jquery">80%</div>
+        </div>
+      </div>
+
+      <div id="infoangular">
+        <h3 class="infos animated fadeIn">ANGULAR</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills angular">85%</div>
+        </div>
+      </div>
+
+      <div id="infoionic">
+        <h3 class="infos animated fadeIn">IONIC</h3>
+        <div class="container animated fadeInUp">
+          <div class="skills ionic">65%</div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="three" class="animated zoomIn">
+    <h1>EDUCATION</h1>
+
+    <div id="educ">
+      <p class="p"> - BAC S spé SVT </p> <span class="ita"> Lycée Rosa Luxemburg Canet</span>
+      <p class="p"> - Licence 1&2 Archéologie </p> <span class="ita">Université Montpellier III <br> (90 ECTS obtenu)</span>
+      <p class="p"> - DU Patrimoine </p> <span class="ita">Université Montpellier III</span>
+      <p class="p"> - Formation Developpeur Web & Mobile </p> <span class="ita">IDEM le Soler</span>          
+    </div>
+
+  </section>
+
+  <section id="fourth" class="animated zoomIn">
+    <h1>MISCELLANEOUS</h1>
+
+    <div class="flexit"><span>{{ '{' }}  I'm  .</span><span id="defile1">  {{ '}' }}</span></div>
+    <div id="imgMisc">
+      <img class="imgMisc" src="assets/img/japan.png" title="Click Me" (click)="showjapan()">
+      <img class="imgMisc" src="assets/img/music.png" title="Click Me" (click)="showmusic()">
+      <img class="imgMisc" src="assets/img/popcorn.png" title="Click Me" (click)="showcine()">
+      <img class="imgMisc" src="assets/img/gameboy.png" title="Click Me" (click)="showgame()">
+    </div>
+
+    <div id="infoMisc">
+      <div id="infojapan">
+        <h3 class="infosM animated fadeIn">JAPAN</h3>
+        <p class="p2 animated fadeInUp">Culture</p>
+        <p class="p2 animated fadeInUp">Manga</p>
+        <p class="p2 animated fadeInUp">Animation</p>
+      </div>
+
+      <div id="infomusic">
+        <h3 class="infosM animated fadeIn">MUSIC</h3>
+        <p class="p2 animated fadeInUp">Pop-Rock</p>
+        <p class="p2 animated fadeInUp">Folk</p>
+        <p class="p2 animated fadeInUp">J-Pop</p>
+      </div>
+
+      <div id="infocine">
+        <h3 class="infosM animated fadeIn">CINEMA</h3>
+        <p class="p2 animated fadeInUp">Fantastic</p>
+        <p class="p2 animated fadeInUp">Aventure</p>
+        <p class="p2 animated fadeInUp">Action</p>
+      </div>
+
+      <div id="infogame">
+        <h3 class="infosM animated fadeIn">VIDEO GAME</h3>
+        <p class="p2 animated fadeInUp">MMORPG</p>
+        <p class="p2 animated fadeInUp">RPG</p>
+        <p class="p2 animated fadeInUp">FPS</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  
+</div>
